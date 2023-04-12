@@ -1,0 +1,46 @@
+.techno {
+    margin-bottom: 150px;
+}
+
+.techno__top {
+    background-image: url(../images/techno-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.techno__top-inner {
+    position: relative;
+    min-height: 110vh;
+}
+
+.techno__btn {
+    right: 350px;
+    top: 50vh;
+}
+
+.techno__top-box {
+    position: absolute;
+    left: 0;
+    bottom: 75px;
+}
+
+.techno__title {
+    max-width: 470px;
+    margin-bottom: 62px;
+}
+
+.techno__list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.techno__list-item {
+    padding-left: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 15px;
+
+}

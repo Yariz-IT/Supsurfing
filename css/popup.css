@@ -1,0 +1,31 @@
+.popup-btn {
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+}
+
+.popup-btn span {
+    padding-top: 12px;
+    display: block;
+    color: white;
+}
+
+.popup-btn path,
+.popup-btn circle {
+    transition: all .3s;
+}
+
+.popup-btn:hover path {
+    fill: #B9C400;
+
+}
+
+.popup-btn:hover circle {
+    stroke: #B9C400;
+}
+
+.popup-btn:hover span {
+    color: #0093A1;
+}

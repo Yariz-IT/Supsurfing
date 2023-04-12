@@ -1,0 +1,84 @@
+@import './normalize.css'; 
+@import './header.css'; 
+@import './popup.css'; 
+@import './info.css'; 
+@import './buy.css'; 
+@import './techno.css'; 
+@import './gallery.css'; 
+@import './footer.css'; 
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #262c27;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+img {
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    font-size: 60px;
+    line-height: 67px;
+}
+
+.logo path {
+    transition: all .3s ease;
+}
+
+.logo:hover path {
+    fill: #0093A1;
+    transition: all .3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
